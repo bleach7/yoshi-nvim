@@ -25,6 +25,7 @@ return {
   },
 
   -- Set colorscheme to use
+  -- colorscheme = "astrodark",
   colorscheme = "night-owl",
 
   { "nvim-neo-tree/neo-tree.nvim", disable = true },

@@ -22,7 +22,7 @@ return {
     config = function()
       require("nvim-tree").setup {
         sort_by = "case_sensitive",
-        view = { width = 40 },
+        view = { width = 35},
         renderer = { group_empty = true },
         filters = { dotfiles = false, git_ignored = false },
       }
@@ -36,5 +36,11 @@ return {
     config = function() require("nvim-highlight-colors").setup { enable_tailwind = true } end,
     opts = {},
     event = "User AstroFile",
+  },
+  {
+    "laytan/tailwind-sorter.nvim",
+    config = function() require('tailwind-sorter').setup() end,
+    run = 'cd formatter && npm i && npm run build',
+    event="User AstroFile",
   },
 }
