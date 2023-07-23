@@ -15,6 +15,10 @@ return {
       return opts
     end,
   },
+  { "nvim-neo-tree/neo-tree.nvim", enabled = false },
+  { "NvChad/nvim-colorizer.lua", enabled = false },
+  { "akinsho/toggleterm.nvim", enabled = false },
+  { "nvim-notify", enabled = false },
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --

@@ -28,8 +28,6 @@ return {
   -- colorscheme = "astrodark",
   colorscheme = "night-owl",
 
-  { "nvim-neo-tree/neo-tree.nvim", disable = true },
-  { "NvChad/nvim-colorizer.lua", disable = true },
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = { virtual_text = true, underline = true },
 
