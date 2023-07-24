@@ -19,6 +19,7 @@ return {
   { "NvChad/nvim-colorizer.lua", enabled = false },
   { "akinsho/toggleterm.nvim", enabled = false },
   { "nvim-notify", enabled = false },
+  { "Shatur/neovim-session-manager", enabled = false },
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
