@@ -17,7 +17,7 @@ return {
   },
   { "nvim-neo-tree/neo-tree.nvim", enabled = false },
   { "NvChad/nvim-colorizer.lua", enabled = false },
-  { "akinsho/toggleterm.nvim", enabled = false },
+  -- { "akinsho/toggleterm.nvim", enabled = false },
   { "nvim-notify", enabled = false },
   { "Shatur/neovim-session-manager", enabled = false },
   -- You can disable default plugins as follows:
