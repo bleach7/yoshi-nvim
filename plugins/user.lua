@@ -9,13 +9,7 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  {
-    "oxfist/night-owl.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function() vim.cmd.colorscheme "night-owl" end,
-    event = "User AstroFile",
-  },
+  "oxfist/night-owl.nvim",
   {
     "nvim-tree/nvim-tree.lua",
     dependencies = { "nvim-tree/nvim-web-devicons" },
